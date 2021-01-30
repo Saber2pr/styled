@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/styled",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "inline css/less.",
   "repository": {
     "type": "git",
@@ -22,10 +22,5 @@
     "@types/react": "^17.0.0",
     "less": "^4.1.0",
     "typescript": "^3.4.3"
-  },
-  "peerDependencies": {
-    "@types/less": "^3.0.2",
-    "@types/react": "^17.0.0",
-    "less": "^4.1.0"
   }
 }
