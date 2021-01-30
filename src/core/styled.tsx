@@ -26,7 +26,9 @@ export const styled = {
   less: ((strs: string[], ...values: string[]) => {
     const inputcss = getInputString(strs, values)
     let __html = inputcss
-    less.render(inputcss, (_, output) => {
+    less.render(inputcss, {
+      compress: true,
+    }, (_, output) => {
       __html = output.css
     })
     return <style dangerouslySetInnerHTML={{ __html }} />
