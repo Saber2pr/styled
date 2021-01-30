@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/styled",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "inline css/less.",
   "repository": {
     "type": "git",
